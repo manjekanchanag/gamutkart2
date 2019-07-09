@@ -9,7 +9,7 @@ pipeline {
 	}
 	stage('Build') {
 	    steps {
-		sh '/home/devil/.jenkins/workspace/declarativepipejob/mvn install'
+		sh '/home/devil/Downloads/apache-maven-3.6.1/bin/mvn install'
 	}
 	    }
 	stage('Deployment') {
